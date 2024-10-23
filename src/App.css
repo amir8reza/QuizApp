@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "vazir";
+  src: url(./assets/font/Vazir.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "vazir";
+}
+
+body {
+  background-color: #e5d9f2;
+}
+
+.container {
+  overflow: hidden;
+  max-width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.start-btn {
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  border: none;
+  background-color: #a594f9;
+  color: white;
+  margin-top: 45vh;
+  font-size: 18px;
+}
+
+.start-btn:hover {
+  background-color: #bbb0f0;
+  cursor: pointer;
+}

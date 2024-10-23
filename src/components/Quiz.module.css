@@ -1,0 +1,40 @@
+.quizSection {
+  margin-top: 20vh;
+  height: 60vh;
+}
+
+.quizSection h2 {
+  font-size: 25px;
+  color: #7b69d4;
+}
+
+.quizSection h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #7b69d4;
+}
+
+.quizSection ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.quizSection li {
+  margin: 20px auto;
+  width: 80%;
+  background-color: #a594f9;
+  padding: 10px 0;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.quizSection li:hover {
+  cursor: pointer;
+  background-color: #c2b9f0;
+}
+
+.quizSection input[type="range"] {
+  width: 70%;
+  accent-color: #a594f9;
+}

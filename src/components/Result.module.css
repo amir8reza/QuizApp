@@ -1,0 +1,24 @@
+.result {
+  margin-top: 45vh;
+}
+
+.result h3 {
+  font-size: 30px;
+  color: #7b69d4;
+}
+
+.result button {
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  border: none;
+  background-color: #a594f9;
+  color: white;
+  margin-top: 6vh;
+  font-size: 18px;
+}
+
+.result button:hover {
+  background-color: #bbb0f0;
+  cursor: pointer;
+}
